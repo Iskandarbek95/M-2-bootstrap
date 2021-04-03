@@ -1,0 +1,266 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.ml-r {
+    padding: 0 50px;
+}
+
+li a {
+    color: black;
+    
+}
+
+.ml-1 {
+    margin-left: 15px;
+}
+
+.pr-1 {
+    margin-right: 15px  ;
+}
+
+.avia {
+    font-size: 22px;
+    margin-top: -7px;
+}
+
+.header-body {
+    height: 550px;
+    background-color: rgb(153, 182, 153);
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image:  linear-gradient(rgba(35, 67, 85, 0.705), rgba(46, 83, 90, 0.301)), url(./img/header\ img.jpg);
+}
+
+.header-h1 {
+    font-size: 46px;
+}
+
+.header-navs {
+    height: 50px;
+    width: 500px;
+    background-color: rgb(218, 226, 233);
+}
+
+.main {
+    height: 2800px;
+    background-color: rgba(226, 234, 238, 0.589);
+}
+
+.page-inform a {
+    text-decoration: none;
+    color: rgb(45, 53, 45);
+}
+
+.page-inform a:hover {
+    color: black;
+}
+
+.inform-1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.inform-1 img {
+    height: 125px;
+    width: 125px;
+}
+
+.page-inform h5 {
+    line-height: 28px;
+}
+
+.mar-right {
+    margin-right: 15px;
+}
+
+
+.new-rooms-img {
+    height: 150px;
+    width: 265px;
+}
+
+.ipotec-link-img {
+    height: 700px;
+    background-image:linear-gradient(rgba(35, 67, 85, 0.198), rgba(8, 42, 49, 0.397)), url(./img/img\ ipotec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 500px;
+    color: white;
+}
+
+.ipotec-link-img-p {
+    font-size: small;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.ipotec-link-inform {
+    height: 600px;
+    width: 430px;
+    margin: 50px 0px 50px 70px;
+}
+
+.page-inform-text p {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: px;
+    font-size: smaller;
+}
+
+.send {
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: rgb(37, 37, 187);
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+
+.send:hover {
+    background-color: rgba(22, 22, 150, 0.897);
+    color: white;
+    transition: 0.7;
+}
+
+.inf-footer-p {
+    font-size: smaller;
+    color: grey;
+}
+
+.p-i {
+    height: 350px;
+    width: 550px;
+    margin-top: 80px;
+    background-image: url(./img/partners-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.partners-inform {
+    height: 500px;
+    width: 450px;
+}
+
+.partners-inform-page {
+    height: 400px;
+    width: 420px;
+    margin: 60px 50px 50px 70px;
+}
+
+.all-part {
+    height: 1000px;
+    background-color: white;
+}
+
+.all-part img {
+    height: 100px;
+    width: 300px;
+}
+
+.all-btn {
+    height: 70px;
+    width: 150px;
+    margin: 40px auto;
+}
+
+.all-information {
+    height: 300px;
+    background-color: rgba(226, 234, 238, 0.589);
+}
+
+#footer {
+    height: 600px;
+    padding: 50px 70px;
+    display: grid;
+    grid-template-rows: 140px 340px 50px;
+} 
+
+.footer__page1 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 300px 300px 300px 300px;
+    border-bottom: 1px solid rgba(170, 151, 151, 0.596);
+}
+
+.footer__page1 a img {
+    height: 35px;
+    width: 120px;
+}
+
+.footer__page1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__page1 div a {
+    text-decoration: none;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.footer__page1 div a:hover,
+.footer__page2 div a:hover {
+    color: rgb(81, 81, 231);
+}
+
+.page1-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.page1-icon p {
+    margin-left: 10px;
+}
+
+.footer__page2 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 300px 300px 300px 300px;
+    padding: 30px 0;
+}
+
+.footer__page2 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__page2 div a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+}
+
+#page2__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#page2__img img {
+    height: 50px;
+    width: 145px;
+}
+
+.number__link {
+    margin-top: 80px;
+}
+
+#nb-lk {
+    color: blue;
+    font-weight: 600;
+}
+
+.number__link p {
+    color: rgb(121, 103, 103);
+}
+
+.footer__page3 p {
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(180, 170, 170);
+}
